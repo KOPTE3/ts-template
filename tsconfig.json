@@ -6,8 +6,8 @@
 		],
 
 		"types": [
-			"node",
-			"debug"
+			"debug",
+			"node"
 		],
 
 		"lib": [

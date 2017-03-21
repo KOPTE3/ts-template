@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "description",
   "author": "Ostapenko Anatoliy <ostapencko.anatoliy@yandex.ru> (https://github.com/KOPTE3)",
-  "bin": "bin/start.js",
+  "bin": {
+    "name": "bin/start.js"
+  },
   "main": "lib/index.js",
   "private": true,
   "types": "./types/index.d.ts",
