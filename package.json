@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "name",
   "version": "0.0.0",
-  "description": "TypeScript template",
+  "description": "description",
   "author": "Ostapenko Anatoliy <ostapencko.anatoliy@yandex.ru> (https://github.com/KOPTE3)",
   "bin": "bin/start.js",
   "main": "lib/index.js",
@@ -16,16 +16,11 @@
     "node": ">=7.0",
     "npm": ">=3.8"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@bitbucket.org/top-kek-team/speakers-utility.git"
-  },
   "contributors": [
     "Ostapenko Anatoliy <ostapencko.anatoliy@yandex.ru> (https://github.com/KOPTE3)"
   ],
   "keywords": [],
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/top-kek-team/speakers-utility#readme",
   "devDependencies": {
     "typescript": "^2.2.1"
   },
