@@ -22,11 +22,11 @@
   "keywords": [],
   "license": "UNLICENSED",
   "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/node": "^7.0.7",
     "typescript": "^2.2.1"
   },
   "dependencies": {
-    "@types/debug": "0.0.29",
-    "@types/node": "^7.0.7",
     "debug": "^2.6.1"
   }
 }
