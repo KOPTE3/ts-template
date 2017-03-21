@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"typeRoots": [
+			"./node_modules/@types",
+			"./types"
+		],
+
+		"types": [
+			"node"
+		],
+
+		"lib": [
+			"es2017",
+			"dom"
+		],
+
+		"target": "es2017",
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"strictNullChecks": true,
+		"noImplicitThis": true,
+		"noImplicitAny": true,
+		"allowSyntheticDefaultImports": false,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"declaration": false,
+		"sourceMap": false
+	},
+
+	"exclude": [
+		"./node_modules"
+	]
+}
