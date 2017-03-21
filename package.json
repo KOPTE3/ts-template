@@ -9,7 +9,8 @@
   "types": "./types/index.d.ts",
   "scripts": {
     "start": "./bin/start.js",
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "engines": {
     "node": ">=7.0",

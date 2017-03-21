@@ -17,14 +17,21 @@
 		"target": "es2017",
 		"module": "commonjs",
 		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+
 		"strictNullChecks": true,
 		"noImplicitThis": true,
 		"noImplicitAny": true,
-		"allowSyntheticDefaultImports": false,
+		"alwaysStrict": true,
+
 		"experimentalDecorators": true,
 		"emitDecoratorMetadata": true,
-		"declaration": false,
-		"sourceMap": false
+
+		"declaration": true,
+		"sourceMap": true,
+		"newLine": "LF",
+		"pretty": true
 	},
 
 	"exclude": [
